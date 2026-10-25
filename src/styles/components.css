@@ -17,14 +17,14 @@ nav {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  padding: 14px 0;
+  padding: 20px 0;
 }
 
 .nav-inner {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 0;
+  padding: 20px 0;
 }
 
 .nav-brand {
@@ -39,8 +39,8 @@ nav {
 }
 
 .nav-brand-img {
-  height: 48px;
-  width: 48px;
+  height: 144px;
+  width: 144px;
   border-radius: 50%;
   object-fit: cover;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
