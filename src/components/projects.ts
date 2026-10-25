@@ -162,6 +162,14 @@ export function createProjects(localization: Localization): HTMLElement {
       });
 
       links.appendChild(codeLink);
+    } else {
+      const privateNote = document.createElement('p');
+      privateNote.style.fontSize = 'var(--font-size-sm)';
+      privateNote.style.color = 'var(--color-text-muted)';
+      privateNote.style.fontStyle = 'italic';
+      privateNote.style.margin = '0';
+      privateNote.textContent = '🔒 Private Repository';
+      links.appendChild(privateNote);
     }
 
     card.appendChild(title);

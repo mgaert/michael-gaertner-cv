@@ -70,7 +70,7 @@ export const projects: Project[] = [
         description: 'i18n implementation with ngx-translate supporting Deutsch/English with dynamic language switching.',
       },
     ],
-    codeLink: 'https://github.com/mgaert/BetexApp',
+    // codeLink: Private repository
   },
   {
     id: 'betexserver',
@@ -116,7 +116,7 @@ export const projects: Project[] = [
         description: 'Setup Alembic migration system with Flask-Migrate for production-safe database schema evolution.',
       },
     ],
-    codeLink: 'https://github.com/mgaert/BetexServer',
+    // codeLink: Private repository
   },
   {
     id: 'betexqrcodegenerator',
@@ -153,7 +153,7 @@ export const projects: Project[] = [
         description: 'Seamless integration with external Zint command-line tool with proper error handling and output management.',
       },
     ],
-    codeLink: 'https://github.com/mgaert/BetexQRCodeGenerator',
+    // codeLink: Private repository
   },
   {
     id: 'backup-emails-imap',
@@ -185,6 +185,7 @@ export const projects: Project[] = [
         description: 'Designed efficient .eml file storage format for offline archival and retrieval.',
       },
     ],
+    // codeLink: Public repository on GitHub
     codeLink: 'https://github.com/mgaert/backup-emails-imap',
   },
 ];
