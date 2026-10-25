@@ -96,7 +96,18 @@ export const enStrings = {
    'project.betexapp.shortDescription': 'Professional cross-platform mobile application for order management and product data collection with native iOS & Android support via Capacitor.',
    'project.betexapp.description': 'Professional cross-platform mobile app combining web technologies (Angular 19) with native capabilities (iOS/Android via Capacitor 7). Features image-based and manual order entry, real-time QR code scanning, multi-language support (German/English), and comprehensive test coverage with 226 unit tests and Maestro E2E automation. Implements offline-first architecture with local storage, HTTPS security, CSRF protection, and dark mode support.',
    'project.betexapp.technologies': 'Angular 19.1 | TypeScript 5.7 | Capacitor 7.2 | Angular Material 19 | ngx-translate 16 | ZXing Scanner | jsPDF 3.0 | Karma/Jasmine | RxJS',
-   'project.betexapp.challenges': 'Cross-platform mobile development • Native API integration (Camera, Photo Gallery, Barcode Scanner) • Offline-first architecture with local storage • 226 unit tests + Maestro E2E automation • Multi-language support with dynamic switching',
+    'project.betexapp.challenges': 'Cross-platform mobile development • Native API integration (Camera, Photo Gallery, Barcode Scanner) • Offline-first architecture with local storage • 226 unit tests + Maestro E2E automation • Multi-language support with dynamic switching',
+
+    'project.betexapp.challenge.1.title': 'Cross-Platform Mobile Development',
+    'project.betexapp.challenge.1.description': 'Seamless iOS & Android deployment from single Angular codebase using Capacitor, handling platform-specific APIs.',
+    'project.betexapp.challenge.2.title': 'Native API Integration',
+    'project.betexapp.challenge.2.description': 'Integration of camera, photo gallery, QR code scanner, and file system with comprehensive fallbacks and error handling.',
+    'project.betexapp.challenge.3.title': 'Offline-First Architecture',
+    'project.betexapp.challenge.3.description': 'Implemented local storage with Capacitor Preferences API for seamless offline functionality and data sync on reconnection.',
+    'project.betexapp.challenge.4.title': 'Comprehensive Testing Strategy',
+    'project.betexapp.challenge.4.description': '226 unit tests with Karma/Jasmine and E2E automation using Maestro for iOS/Android native testing.',
+    'project.betexapp.challenge.5.title': 'Multi-Language Support',
+    'project.betexapp.challenge.5.description': 'i18n implementation with ngx-translate supporting German/English with dynamic language switching.',
 
    // BetexServer
    'project.betexserver.title': 'BetexServer - Enterprise Backend API',
@@ -105,7 +116,18 @@ export const enStrings = {
    'project.betexserver.shortDescription': 'Enterprise-grade Flask backend for multi-tenant SaaS platform with JWT authentication, QR code generation, and email integration.',
    'project.betexserver.description': 'Enterprise-grade Flask backend (v1.1.3) with multi-tenant architecture, complete user management with JWT-based authentication (RSA certificates), password reset via email, batch QR code generation with logo embedding, email integration with NTLM/SPNEGO for enterprise networks, file upload/download handling, and admin dashboard. Production-ready deployment options including Waitress, Gunicorn, Windows Service, and systemd support with comprehensive database migrations using Alembic.',
    'project.betexserver.technologies': 'Python 3 | Flask 3.1 | SQLAlchemy 2.0 ORM | PostgreSQL | Alembic Migrations | Flask-JWT-Extended | Flask-CORS | Pillow QR Generation | Waitress/Gunicorn WSGI | Docker',
-   'project.betexserver.challenges': 'Multi-tenant isolation and security • Enterprise JWT token management with RSA certificates • NTLM/SPNEGO SMTP integration • Batch QR code generation with branding • Database versioning and migrations • Role-based access control (RBAC)',
+    'project.betexserver.challenges': 'Multi-tenant isolation and security • Enterprise JWT token management with RSA certificates • NTLM/SPNEGO SMTP integration • Batch QR code generation with branding • Database versioning and migrations • Role-based access control (RBAC)',
+
+    'project.betexserver.challenge.1.title': 'Multi-Tenant Architecture',
+    'project.betexserver.challenge.1.description': 'Designed and implemented complete multi-tenant isolation with customer-level data segregation and access control.',
+    'project.betexserver.challenge.2.title': 'Enterprise JWT Security',
+    'project.betexserver.challenge.2.description': 'RSA certificate-based JWT token management with token refresh, expiration handling, and secure credential storage.',
+    'project.betexserver.challenge.3.title': 'NTLM/SPNEGO Email Integration',
+    'project.betexserver.challenge.3.description': 'Integrated SMTP with NTLM authentication for enterprise email systems, handling complex authentication protocols.',
+    'project.betexserver.challenge.4.title': 'Batch QR Code Generation',
+    'project.betexserver.challenge.4.description': 'Implemented high-performance QR code generation with logo embedding, batch processing, and PIL image manipulation.',
+    'project.betexserver.challenge.5.title': 'Database Versioning & Migrations',
+    'project.betexserver.challenge.5.description': 'Setup Alembic migration system with Flask-Migrate for production-safe database schema evolution.',
 
    // BetexQRCodeGenerator
    'project.betexqrcodegenerator.title': 'BetexQRCodeGenerator - QR Code CLI Utility',
@@ -114,7 +136,16 @@ export const enStrings = {
    'project.betexqrcodegenerator.shortDescription': 'Specialized CLI tool for batch generation of print-optimized QR codes from CSV product data with Zint integration.',
    'project.betexqrcodegenerator.description': 'Specialized CLI utility for converting CSV product data into high-quality, print-optimized QR codes. Encodes product metadata as JSON within QR payloads with automatic BETEX branding prefix. Implements DPI-based scaling for professional print output at exact dimensions (1.8cm × 1.8cm @ 300 DPI). Handles batch processing of 100+ products efficiently with PNG output ready for immediate printing or PDF export.',
    'project.betexqrcodegenerator.technologies': 'Python 3 | Zint QR Engine | Pillow/PIL | CSV Processing | CLI Tools',
-   'project.betexqrcodegenerator.challenges': 'Print-optimized DPI-based QR code generation • Batch processing performance for large datasets • Product metadata JSON serialization • Zint CLI integration with error handling',
+    'project.betexqrcodegenerator.challenges': 'Print-optimized DPI-based QR code generation • Batch processing performance for large datasets • Product metadata JSON serialization • Zint CLI integration with error handling',
+
+    'project.betexqrcodegenerator.challenge.1.title': 'Print-Optimized QR Code Generation',
+    'project.betexqrcodegenerator.challenge.1.description': 'Calculated DPI-based scaling for high-quality print output at specific dimensions (1.8cm @ 300 DPI).',
+    'project.betexqrcodegenerator.challenge.2.title': 'Batch Processing Performance',
+    'project.betexqrcodegenerator.challenge.2.description': 'Optimized CSV parsing and QR generation for handling 100+ products efficiently.',
+    'project.betexqrcodegenerator.challenge.3.title': 'Product Metadata Encoding',
+    'project.betexqrcodegenerator.challenge.3.description': 'Serialized complex product information into JSON format embedded within QR code payloads.',
+    'project.betexqrcodegenerator.challenge.4.title': 'Zint CLI Integration',
+    'project.betexqrcodegenerator.challenge.4.description': 'Seamless integration with external Zint command-line tool with proper error handling and output management.',
 
    // backup-emails-imap
    'project.backupemails.title': 'backup-emails-imap - Email Backup Utility',
@@ -123,7 +154,14 @@ export const enStrings = {
    'project.backupemails.shortDescription': 'Python utility for backing up IONOS mailboxes via IMAP to local .eml files for offline storage and archival.',
    'project.backupemails.description': 'Practical utility for secure email backup from IONOS mailboxes using IMAP protocol. Retrieves all emails and stores them as individual .eml files for offline archival and long-term storage. Implements robust IMAP client with proper credential handling and mailbox traversal.',
    'project.backupemails.technologies': 'Python 3 | IMAP Protocol | IONOS Integration | File System Management',
-   'project.backupemails.challenges': 'IMAP protocol implementation • IONOS mailbox integration • Offline .eml storage format design',
+    'project.backupemails.challenges': 'IMAP protocol implementation • IONOS mailbox integration • Offline .eml storage format design',
+
+    'project.backupemails.challenge.1.title': 'IMAP Protocol Implementation',
+    'project.backupemails.challenge.1.description': 'Implemented robust IMAP client for mailbox traversal and secure email retrieval.',
+    'project.backupemails.challenge.2.title': 'IONOS Integration',
+    'project.backupemails.challenge.2.description': 'Integrated with IONOS mailbox infrastructure with proper credential handling.',
+    'project.backupemails.challenge.3.title': 'Offline Storage',
+    'project.backupemails.challenge.3.description': 'Designed efficient .eml file storage format for offline archival and retrieval.',
 
   // Certifications
   'certifications.title': 'Certifications',

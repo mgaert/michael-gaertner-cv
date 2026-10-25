@@ -116,10 +116,10 @@ export function createProjects(localization: Localization): HTMLElement {
       li.style.color = 'var(--color-text)';
 
       const strong = document.createElement('strong');
-      strong.textContent = challenge.title + ': ';
+      strong.textContent = localization.t(challenge.titleKey) + ': ';
 
       li.appendChild(strong);
-      li.appendChild(document.createTextNode(challenge.description));
+      li.appendChild(document.createTextNode(localization.t(challenge.descriptionKey)));
       challengeList.appendChild(li);
     });
 

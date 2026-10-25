@@ -4,8 +4,8 @@ export interface ProjectTechnology {
 }
 
 export interface ProjectChallenge {
-  title: string;
-  description: string;
+  titleKey: string;
+  descriptionKey: string;
 }
 
 export interface Project {
@@ -50,24 +50,24 @@ export const projects: Project[] = [
     ],
     challenges: [
       {
-        title: 'Cross-Platform Mobile Development',
-        description: 'Seamless iOS & Android deployment from single Angular codebase using Capacitor, handling platform-specific APIs.',
+        titleKey: 'project.betexapp.challenge.1.title',
+        descriptionKey: 'project.betexapp.challenge.1.description',
       },
       {
-        title: 'Native API Integration',
-        description: 'Integration of camera, photo gallery, QR code scanner, and file system with comprehensive fallbacks and error handling.',
+        titleKey: 'project.betexapp.challenge.2.title',
+        descriptionKey: 'project.betexapp.challenge.2.description',
       },
       {
-        title: 'Offline-First Architecture',
-        description: 'Implemented local storage with Capacitor Preferences API for seamless offline functionality and data sync on reconnection.',
+        titleKey: 'project.betexapp.challenge.3.title',
+        descriptionKey: 'project.betexapp.challenge.3.description',
       },
       {
-        title: 'Comprehensive Testing Strategy',
-        description: '226 unit tests with Karma/Jasmine and E2E automation using Maestro for iOS/Android native testing.',
+        titleKey: 'project.betexapp.challenge.4.title',
+        descriptionKey: 'project.betexapp.challenge.4.description',
       },
       {
-        title: 'Multi-Language Support',
-        description: 'i18n implementation with ngx-translate supporting Deutsch/English with dynamic language switching.',
+        titleKey: 'project.betexapp.challenge.5.title',
+        descriptionKey: 'project.betexapp.challenge.5.description',
       },
     ],
     // codeLink: Private repository
@@ -96,24 +96,24 @@ export const projects: Project[] = [
     ],
     challenges: [
       {
-        title: 'Multi-Tenant Architecture',
-        description: 'Designed and implemented complete multi-tenant isolation with customer-level data segregation and access control.',
+        titleKey: 'project.betexserver.challenge.1.title',
+        descriptionKey: 'project.betexserver.challenge.1.description',
       },
       {
-        title: 'Enterprise JWT Security',
-        description: 'RSA certificate-based JWT token management with token refresh, expiration handling, and secure credential storage.',
+        titleKey: 'project.betexserver.challenge.2.title',
+        descriptionKey: 'project.betexserver.challenge.2.description',
       },
       {
-        title: 'NTLM/SPNEGO Email Integration',
-        description: 'Integrated SMTP with NTLM authentication for enterprise email systems, handling complex authentication protocols.',
+        titleKey: 'project.betexserver.challenge.3.title',
+        descriptionKey: 'project.betexserver.challenge.3.description',
       },
       {
-        title: 'Batch QR Code Generation',
-        description: 'Implemented high-performance QR code generation with logo embedding, batch processing, and PIL image manipulation.',
+        titleKey: 'project.betexserver.challenge.4.title',
+        descriptionKey: 'project.betexserver.challenge.4.description',
       },
       {
-        title: 'Database Versioning & Migrations',
-        description: 'Setup Alembic migration system with Flask-Migrate for production-safe database schema evolution.',
+        titleKey: 'project.betexserver.challenge.5.title',
+        descriptionKey: 'project.betexserver.challenge.5.description',
       },
     ],
     // codeLink: Private repository
@@ -137,20 +137,20 @@ export const projects: Project[] = [
     ],
     challenges: [
       {
-        title: 'Print-Optimized QR Code Generation',
-        description: 'Calculated DPI-based scaling for high-quality print output at specific dimensions (1.8cm @ 300 DPI).',
+        titleKey: 'project.betexqrcodegenerator.challenge.1.title',
+        descriptionKey: 'project.betexqrcodegenerator.challenge.1.description',
       },
       {
-        title: 'Batch Processing Performance',
-        description: 'Optimized CSV parsing and QR generation for handling 100+ products efficiently.',
+        titleKey: 'project.betexqrcodegenerator.challenge.2.title',
+        descriptionKey: 'project.betexqrcodegenerator.challenge.2.description',
       },
       {
-        title: 'Product Metadata Encoding',
-        description: 'Serialized complex product information into JSON format embedded within QR code payloads.',
+        titleKey: 'project.betexqrcodegenerator.challenge.3.title',
+        descriptionKey: 'project.betexqrcodegenerator.challenge.3.description',
       },
       {
-        title: 'Zint CLI Integration',
-        description: 'Seamless integration with external Zint command-line tool with proper error handling and output management.',
+        titleKey: 'project.betexqrcodegenerator.challenge.4.title',
+        descriptionKey: 'project.betexqrcodegenerator.challenge.4.description',
       },
     ],
     // codeLink: Private repository
@@ -173,16 +173,16 @@ export const projects: Project[] = [
     ],
     challenges: [
       {
-        title: 'IMAP Protocol Implementation',
-        description: 'Implemented robust IMAP client for mailbox traversal and secure email retrieval.',
+        titleKey: 'project.backupemails.challenge.1.title',
+        descriptionKey: 'project.backupemails.challenge.1.description',
       },
       {
-        title: 'IONOS Integration',
-        description: 'Integrated with IONOS mailbox infrastructure with proper credential handling.',
+        titleKey: 'project.backupemails.challenge.2.title',
+        descriptionKey: 'project.backupemails.challenge.2.description',
       },
       {
-        title: 'Offline Storage',
-        description: 'Designed efficient .eml file storage format for offline archival and retrieval.',
+        titleKey: 'project.backupemails.challenge.3.title',
+        descriptionKey: 'project.backupemails.challenge.3.description',
       },
     ],
     // codeLink: Public repository on GitHub
