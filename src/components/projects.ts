@@ -68,7 +68,7 @@ export function createProjects(localization: Localization): HTMLElement {
     techLabel.style.textTransform = 'uppercase';
     techLabel.style.letterSpacing = '0.05em';
     techLabel.style.color = 'var(--color-primary)';
-    techLabel.textContent = 'Technologies';
+    techLabel.textContent = localization.t('projects.label.technologies');
 
     const techTags = document.createElement('div');
     techTags.style.display = 'flex';
@@ -103,7 +103,7 @@ export function createProjects(localization: Localization): HTMLElement {
     challengeLabel.style.textTransform = 'uppercase';
     challengeLabel.style.letterSpacing = '0.05em';
     challengeLabel.style.color = 'var(--color-primary)';
-    challengeLabel.textContent = 'Technical Challenges';
+    challengeLabel.textContent = localization.t('projects.label.challenges');
 
     const challengeList = document.createElement('ul');
     challengeList.style.paddingLeft = 'var(--spacing-lg)';
@@ -168,7 +168,7 @@ export function createProjects(localization: Localization): HTMLElement {
       privateNote.style.color = 'var(--color-text-muted)';
       privateNote.style.fontStyle = 'italic';
       privateNote.style.margin = '0';
-      privateNote.textContent = '🔒 Private Repository';
+      privateNote.textContent = localization.t('projects.label.private');
       links.appendChild(privateNote);
     }
 

@@ -84,6 +84,11 @@ export const deStrings = {
    'projects.viewCode': 'Code anschauen',
    'projects.viewDemo': 'Demo besuchen',
 
+   // Projekte Labels
+   'projects.label.technologies': 'Technologien',
+   'projects.label.challenges': 'Technische Herausforderungen',
+   'projects.label.private': '🔒 Privates Repository',
+
    // BetexApp
    'project.betexapp.title': 'BetexApp – Mobile Order-Management-Plattform',
    'project.betexapp.role': 'Solo Full-Stack Entwickler',
