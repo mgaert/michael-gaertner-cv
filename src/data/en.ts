@@ -188,7 +188,7 @@ export const enStrings = {
   // Contact
   'contact.title': 'Get in Touch',
   'contact.description': 'I\'d love to hear from you! Feel free to contact me via email or visit my GitHub profile to see my projects.',
-  'contact.email': 'michael@mg-networking.de',
+   'contact.email': 'michael.gaertner@mg-networking.com',
   'contact.github': 'GitHub',
   'contact.website': 'Website',
 

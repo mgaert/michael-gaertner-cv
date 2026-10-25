@@ -188,7 +188,7 @@ export const deStrings = {
   // Contact
   'contact.title': 'Kontakt',
   'contact.description': 'Ich freue mich, von dir zu hören! Kontaktiere mich gerne über E-Mail oder besuche mein GitHub-Profil für meine Projekte.',
-  'contact.email': 'michael@mg-networking.de',
+   'contact.email': 'michael.gaertner@mg-networking.com',
   'contact.github': 'GitHub',
   'contact.website': 'Webseite',
 
